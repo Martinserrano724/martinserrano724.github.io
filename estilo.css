@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #0b2058;
+    font-family: Verdana;
+}
+.contenedor{
+    background: white;
+    background-image: url(/imagenes/degrade.png);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    width: 1000px;
+    margin: 10px auto   ;
+
+}
+/*---------------superior-------------*/
+.superior{
+    padding: 10px 0;
+    display: block;
+
+}
+.titulo{
+    background:linear-gradient(90deg,#eb0b0b,#410404);
+    text-align: center;
+    font-size: 40px;
+    font-family: -apple-system;
+
+    -webkit-text-fill-color: transparent;
+    /*sirven para poder darle el efecto de degrade al texto */
+    -webkit-background-clip: text;
+   
+
+
+}
+/*---------------superior-------------*/
+/*---------------derecha-------------*/
+.derecha{
+    width: 200px;
+    height: 800px;
+   
+    margin: 10px;
+    overflow: hidden;
+    float: right;
+    
+}
+.derecha .tit{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0;
+    padding: 100px 0px;
+}
+
+.face :hover{
+    transform: rotate(360deg);
+    transition: all 10s;
+}
+.insta :hover{
+    transform: rotate(360deg);
+    transition: all 10s;
+}
+.whatsapp :hover{
+    transform: rotate(360deg);
+    transition: all 10s;
+}
+
+/*---------------derecha-------------*/
+/*---------------centro-------------*/
+.centro{
+    width: 760px;
+    height: 800px;
+  
+    margin: 10px;
+    overflow: hidden;
+    
+}
+/*---------------centro-------------*/
+/*------------MENU------------*/
+.centro .centro_sup{
+    width: 760px;
+    height: 25px;
+  
+    margin: 15px 0px;
+}
+
+.centro_sup ul{
+     float: left;
+    overflow: hidden;
+    text-align:center;
+  
+}
+.centro_sup ul li{
+list-style: none;
+margin: 0px  20px;
+float: left;
+border-width: 4px solid rgb(233, 4, 4);
+
+}
+.centro_sup ul li a{
+text-decoration: none;
+color: rgba(0, 0, 0, 0.856);
+padding: 10px;
+text-align: center;
+}
+.centro_sup ul li a:hover{
+background: rgb(13, 128, 204);
+font-size: 130%;
+transition: 1.1s;
+
+}
+/*menu de opciones*/
+.centro_med {
+    overflow: hidden;
+}
+
+.centro_med .cajas {
+   
+    width: 750px;
+    height: 800px;
+    margin:  auto 0px;
+    float: left;
+}
+.centro_med .cajas h2{
+    font-size: 60px;
+    text-align: center;
+    padding: 50px 0px;
+
+
+}
+.centro_med .cajas p{
+    font-size: 30px;
+    font-family: cursive;
+    padding: 10px 0px;
+
+}
+.centro_med .cajas .img1{
+    overflow: hidden;
+    float: left;
+    background-position: unset;
+}
+.centro_med .cajas .img1:hover{
+     
+    
+    transform: scale(160%);
+    transition: all 2s;
+}
+
+
+
+
+.centro_med .cajas .img2{
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+    float: left;
+
+}
+.centro_med .cajas .img2:hover{
+     
+    
+    transform: scale(160%);
+    transition: all 2s;
+}
+
+
+
+.centro_med .cajas .img3{
+    overflow: hidden;
+    float: left;
+    
+
+}
+.centro_med .cajas .img3:hover{
+    
+    transition: all 2s;
+    transform: scale(160%);
+}
+
+/*---------------centro-------------*/
+/*---------------inferior-------------*/
+.inferior{
+    width: 950px;
+    
+    height: 50px;
+    
+
+}
+.inferior h3{
+    text-align: right;
+    font-size: 20px;
+    font-family: serif;
+}
+
+/*---------------inferior-------------*/
