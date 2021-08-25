@@ -23,14 +23,13 @@ body{
 
 }
 .titulo{
-    background:linear-gradient(90deg,#eb0b0b,#410404);
+    color: white;
+    text-shadow: blue 2px 2px 30px , red 2px 2px 70px,rgb(0, 238, 255) 1px 1px 50px;
     text-align: center;
     font-size: 40px;
     font-family: -apple-system;
 
-    -webkit-text-fill-color: transparent;
-    /*sirven para poder darle el efecto de degrade al texto */
-    -webkit-background-clip: text;
+
    
 
 
