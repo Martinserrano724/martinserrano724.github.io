@@ -9,7 +9,7 @@ body{
 }
 .contenedor{
     background: white;
-    background-image: url(/imagenes/degrade.png);
+    background: linear-gradient( 90deg,rgb(228, 208, 31), rgb(209, 47, 155), rgb(176, 241, 54), violet ) ;
     background-repeat: no-repeat;
     background-size: 200%;
     width: 1000px;
